@@ -1,0 +1,21 @@
+/* @media only screen and (max-width: 435px) {
+    body {
+        background: blue;
+    }
+}
+
+*/
+
+/* HEADER*/
+
+.header-logo {
+    text-align: center;
+    size: 30%;
+    margin-top: 11 px;
+}
+
+.search {
+text-align: right;
+margin-top: 21px;
+
+}
