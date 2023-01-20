@@ -6,6 +6,38 @@
 
 */
 
+/*FONT*/
+
+@font-face {
+    font-family: 'DinPro';
+    src: url("/fonts/D-DIN-PRO-400-Regular.otf");
+}
+
+
+@font-face {
+    font-family: 'DinPro-Bold';
+    src: url("/fonts/D-DIN-PRO-700-Bold.otf");
+}
+
+h1 {
+
+    font-family: Dinpro;
+}
+
+h1, h2, h3{
+    letter-spacing: .1rem;
+    font-family: DinPro-Bold;
+}
+.h2-top{
+    font-family: DinPro, sans-serif;
+}
+
+.main-title{
+    text-align: center;
+    color: var(--purple);
+    margin: 0;
+}
+
 /* HEADER*/
 
 .header-logo {
@@ -17,5 +49,322 @@
 .search {
 text-align: right;
 margin-top: 21px;
+
+}
+
+h1 {
+
+    font-family: Dinpro;
+}
+
+:root{
+    --purple: #5E356F;
+    --yellow: #C4C700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: DinPro;
+}
+
+
+body{
+    padding: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--purple)
+}
+
+
+
+@media (min-width: 20em) {
+
+    
+
+/* HEADER */
+
+.site-header{
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 15px!important;
+    min-height: 3.75em;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box-header{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 3.75em;
+}
+
+.box-logo{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 3.75em;
+    width: 25%;
+}
+
+.logo-header{
+    padding-top: 1em;
+    max-height: 3em;
+}
+
+.search-icon{
+    position: absolute;
+    left: 21em;
+    top: 1.1em; 
+}
+
+a{
+    cursor: pointer;
+}
+
+
+/*MAIN*/
+
+.main-top{
+    min-height: 18em;
+    align-items: center;
+    background-image: url("../assets/Design.png");
+    background-repeat: no-repeat;
+    background-position-y: 10vh;
+}
+
+.main-title-box{
+    margin-top: 2em;
+    font-size: 24px;
+}
+
+
+
+/* SECTION TAGS */
+
+.tag-box{
+    min-height: 30em;
+    background-color: #FCF7FD;
+}
+.tag-box-top{
+    background-color: var(--purple);
+    min-height: 4em;
+    border-radius: 5px;
+}
+
+.tag-box-content{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    align-items: center;
+    margin: 1em 0em 1em 1em;
+    color: white;
+}
+
+.tag-title{
+
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.total{
+    height: 1.6em;
+    margin-left: .5em;
+}
+
+.tag-delete{
+    font-size: 16px;
+    margin: 0 1.2em 0 1.2em;
+    text-decoration: underline;
+}
+
+.minus{
+    height: 1.9em;
+    float: right;
+}
+
+.tag-box-middle{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.tag-title-bottom{
+    font-family: 'Literata', serif;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.tag-box-bottom{
+    width: 17.7em;
+    display: block;
+    align-content: center;
+    margin: 0 auto;
+    margin-left: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.btn-tag{
+    padding: .4em .8em .7em .7em;
+    margin: .5em .5em .5em .5em;
+    font-family: 16px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #E5E5E5;
+    font-weight: light;
+}
+
+.btn-tag-color{
+    background-color: var(--yellow);
+    font-weight: bold;
+}
+
+.btn-tag-bottom{
+    margin-left: 3.7em;
+}
+
+.hashtag{
+    position: relative;
+    top: 3px;
+    right: 3px;
+    padding-right: 0.2em;
+}
+
+.btn-more{
+    display: block;
+    margin: 0 auto;
+    padding: .8em 4em .8em 4em;
+    border-radius: 15px;
+    font-size: 18px;
+    color: var(--purple);
+    background-color: #fff;
+    border: 1px solid #634b6d4d;
+}
+
+/* NU ACTUEEL  */
+
+.topical-box{
+    min-height: 30em;
+    width: 20.6em;
+    margin: 0 auto;
+}
+
+.topical-title{
+    text-align: center;
+    margin: 1.5em;
+    font-size: 24px;
+}
+
+.article-box1{
+    min-height: 25em;
+    border-radius: 10px;
+    border: 1px solid rgba(220, 220, 220, 0.633);
+    box-shadow:  0px 10px 22px -12px  rgba(0,0,0,0.4);
+    margin-bottom: 2em;
+}
+
+.artical-title{
+    height: 6em;
+    margin: 1em;
+
+}
+
+.topical-second-title{
+    max-width: 14em;
+    font-size: 24px;
+}
+
+.topical-subtitle{
+    font-family: Literata, sans-serif;
+    font-size: 16px;
+    color: #86688f;
+}
+
+.topical-bottom-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 1em;
+    color: black;
+    font-family: DinPro-Bold;
+    font-size: 16px;
+}
+
+.topical-li{
+    list-style: none;
+}
+
+/*AGENDA*/
+
+.agenda{
+    min-height: 28em;
+    background-color: #F9F9E8;
+    width: 20.6em;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.agenda-box{
+    display: inline-block;
+    margin: 1em;
+
+}
+
+.title-agenda{
+    font-size: 32px;
+    margin: 0;
+}
+
+.agenda-ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.agenda-date{
+    background-color: #fff;
+    display: flex;
+    min-height: 5em;
+    margin-bottom: 1em;
+}
+
+.date-text{
+    margin: 1em;
+    font-family: DinPro-Bold;
+}
+
+.agenda-btn{
+    min-width: 14em;
+    background-color: var(--purple);
+    color: #fff;
+    padding: .7em;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.product-price{
+    display: inline-block;
+}
+
+/*ARTICLES*/
+
+
+.article-box2{
+    min-height: 27em;
+}
+
+.article-box3{
+    min-height: 28.5em;
+}
 
 }
