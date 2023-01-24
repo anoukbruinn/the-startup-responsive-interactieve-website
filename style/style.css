@@ -10,13 +10,13 @@
 
 @font-face {
     font-family: 'DinPro';
-    src: url("/fonts/D-DIN-PRO-400-Regular.otf");
+    src: url("style/fonts/D-DIN-PRO-400-Regular.otf");
 }
 
 
 @font-face {
     font-family: 'DinPro-Bold';
-    src: url("/fonts/D-DIN-PRO-700-Bold.otf");
+    src: url("style/fonts/D-DIN-PRO-700-Bold.otf");
 }
 
 h1 {
@@ -218,6 +218,7 @@ a{
     border-style: none;
     background-color: #E5E5E5;
     font-weight: light;
+    font: Din Pro;
 }
 
 .btn-tag-color{
@@ -245,6 +246,7 @@ a{
     color: var(--purple);
     background-color: #fff;
     border: 1px solid #634b6d4d;
+    font-family: Din Pro;
 }
 
 /* NU ACTUEEL  */
@@ -365,6 +367,54 @@ a{
 
 .article-box3{
     min-height: 28.5em;
+}
+
+
+
+/*FOOTER*/
+
+.top-footer{
+background-color: #5E356F;
+font-family: DinPro;
+list-style: none;
+}
+
+.top-footer{
+    display: inline-block;
+    background-color: var(--purple);
+    color: #fff;
+    width: 100%;
+}
+
+.footer-list{
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+.top-footer-title{
+    font-size: 32px;
+    margin: 0.3em 0 0.3em 0;
+}
+
+.top-footer-subtitle{
+    font-family: Literata, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0.3em 0 0.3em 0;
+}
+
+/*FOOTER BOTTEM*/
+
+.footer-bottom{
+    background-color: #A68FAD;
+    padding-bottom: 1em;
+}
+
+.footer-bottom-title{
+    display: inline-block;
+    margin: 0;
+    padding-bottom: .5em;
+    font-family: DinPro, sans-serif;;
 }
 
 }
