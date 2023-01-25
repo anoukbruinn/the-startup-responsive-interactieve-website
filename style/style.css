@@ -405,7 +405,7 @@ list-style: none;
 
 /*FOOTER BOTTEM*/
 
-.footer-bottom{
+/*.footer-bottom{
     background-color: #A68FAD;
     padding-bottom: 1em;
 }
@@ -415,6 +415,49 @@ list-style: none;
     margin: 0;
     padding-bottom: .5em;
     font-family: DinPro, sans-serif;;
+}*/
+
+.top-footer{
+    padding: 1rem;
+    background-color: #5E356F;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
+.top-footer h3{
+    margin: 0px !important;
+    font-size: 24px;
+}
+.top-footer a{
+    color: var(--white) ;
+}
+.footer-social-media svg{
+    width: 50px;
+    fill: var(--white);
+}
+.bottom-footer{
+    padding: 1rem;
+    background-color: #a68fad;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.bottom-footer h3{
+    margin: 0px !important;
+    text-align: left 
+}
+a{ 
+    color: black;
+}
+/*NAVIGATIE*/
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #5E356F;
+    display: inline;
+  }
 
 }
