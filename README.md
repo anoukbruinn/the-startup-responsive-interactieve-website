@@ -4,10 +4,13 @@
 
 Voor het bedrijf Bikkelhart hebben wij een opdracht gekregen om een prototype te maken voor een website voor het bedrijf Vilans.
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+<img width="250" alt="Schermafbeelding 2023-01-25 om 13 18 55" src="https://user-images.githubusercontent.com/112856687/214561810-1d047648-1797-4758-8d5b-fde707e41eda.png"> 
+
+checklist
+
+de checklist wat er niet gelukt is staat bij mijn issues.
+
+
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
