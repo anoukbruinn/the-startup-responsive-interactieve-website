@@ -10,7 +10,7 @@ checklist
 
 de checklist wat er niet gelukt is staat bij mijn issues.
 
-[Issues](https://www.figma.com/file/8Y7IExYyKg7Na7p6Pa4Z9z/Untitled?node-id=0%3A1&t=I0EDPwDXlePEZGHj-0)`
+[Issues](https://github.com/anoukbruinn/the-startup-responsive-interactieve-website/issues)`
 
 
 ## Kenmerken
