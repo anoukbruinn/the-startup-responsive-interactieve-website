@@ -4,21 +4,32 @@
 
 Voor het bedrijf Bikkelhart hebben wij een opdracht gekregen om een prototype te maken voor een website voor het bedrijf Vilans.
 
+
+## inhoudsopgave
+
+-Website <br>
+-Checklist <br>
+-Kenmerken <br>
+-Design <br>
+
+### Website
+
 <img width="250" alt="Schermafbeelding 2023-01-25 om 13 18 55" src="https://user-images.githubusercontent.com/112856687/214561810-1d047648-1797-4758-8d5b-fde707e41eda.png"> 
 
-checklist
+### Checklist
 
-de checklist wat er niet gelukt is staat bij mijn issues.
+de checklist: Wat er niet gelukt is staat bij mijn issues.
 
 [Issues](https://github.com/anoukbruinn/the-startup-responsive-interactieve-website/issues)`
 
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+### Kenmerken
+Voor het maken van deze website heb ik gebruik gemaakt van html en CSS. Mijn CSS heb ik opgebouwd in delen. Elke keer heb ik een apart deel. Bijvoorbeeld voor de header. Daar was een apart deel de header, hierin stond alle styling voor de header. 
+
+### Design 
+
+Het design is gemaakt in figma, ik heb een design voor mobiel, desktop en een ipad.
+
+<img width="1120" alt="Schermafbeelding 2023-01-25 om 13 55 24" src="https://user-images.githubusercontent.com/112856687/214568787-29e94c3e-ab1d-4c47-85e7-f9d47e5439e1.png">
 
 
-## Licentie
-
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
-
-This work is licensed under [GNU GPLv3](./LICENSE).
