@@ -32,4 +32,4 @@ Het design is gemaakt in figma, ik heb een design voor mobiel, desktop en een ip
 
 <img width="1120" alt="Schermafbeelding 2023-01-25 om 13 55 24" src="https://user-images.githubusercontent.com/112856687/214568787-29e94c3e-ab1d-4c47-85e7-f9d47e5439e1.png">
 
-
+[ipad figma](https://www.figma.com/file/8Y7IExYyKg7Na7p6Pa4Z9z/Untitled?node-id=0%3A1&t=6CwTHhPAgCeCe6lg-0))
